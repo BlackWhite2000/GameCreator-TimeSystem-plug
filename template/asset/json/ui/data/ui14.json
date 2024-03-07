@@ -1,0 +1,49 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "152244929740_0.7876958504887439",
+                "condition": [],
+                "type": "UIString",
+                "name": "文本",
+                "x": 164,
+                "y": 196,
+                "width": 200,
+                "height": 30,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "text": "$1",
+                "fontSize": 24,
+                "color": "#ffffff",
+                "bold": false,
+                "italic": false,
+                "align": 0,
+                "valign": 0,
+                "leading": 0,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowColor": "#000000",
+                "shadowDx": 1,
+                "shadowDy": 1,
+                "stroke": 0,
+                "strokeColor": "#000000"
+            }
+        ]
+    },
+    "id": 14,
+    "hasRootCommand": []
+}

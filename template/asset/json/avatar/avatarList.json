@@ -1,0 +1,218 @@
+{
+    "list": {
+        "1": [
+            null,
+            "伊斯特",
+            "菲妮罗",
+            "雷兹法普",
+            "拉芙娜"
+        ],
+        "2": [
+            null,
+            "史莱姆",
+            "海螺",
+            "红蘑菇",
+            "食人花",
+            "蜘蛛",
+            "恶狼",
+            "白银鸟",
+            "幽灵",
+            "哥布林1",
+            "哥布林2",
+            "哥布林队长",
+            "树怪",
+            "野牛",
+            "狼人",
+            "恶魔",
+            "魅魔",
+            "魔王",
+            ""
+        ],
+        "3": [
+            null
+        ],
+        "4": [
+            null
+        ],
+        "5": [
+            null
+        ],
+        "6": [
+            null
+        ],
+        "7": [
+            null
+        ],
+        "8": [
+            null
+        ],
+        "9": [
+            null
+        ],
+        "10": [
+            null
+        ],
+        "11": [
+            null
+        ],
+        "12": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "15": [
+            null
+        ],
+        "16": [
+            null,
+            ""
+        ]
+    },
+    "type": {
+        "1": "人物",
+        "2": "怪物",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "宝箱",
+        "10": "开关",
+        "11": "魔法",
+        "12": "",
+        "15": "",
+        "16": "插件"
+    },
+    "typeTreeNode": {
+        "isDirectory": true,
+        "children": [
+            {
+                "isDirectory": true,
+                "children": [],
+                "isOpen": true,
+                "name": "人物",
+                "id": null
+            },
+            {
+                "isDirectory": true,
+                "children": [],
+                "isOpen": true,
+                "name": "怪物",
+                "id": null
+            },
+            {
+                "id": 1,
+                "name": "伊斯特",
+                "children": []
+            },
+            {
+                "id": 2,
+                "name": "菲妮罗",
+                "children": []
+            },
+            {
+                "id": 3,
+                "name": "雷兹法普",
+                "children": []
+            },
+            {
+                "id": 4,
+                "name": "拉芙娜",
+                "children": []
+            },
+            {
+                "id": 1001,
+                "name": "史莱姆",
+                "children": []
+            },
+            {
+                "id": 1002,
+                "name": "海螺",
+                "children": []
+            },
+            {
+                "id": 1003,
+                "name": "红蘑菇",
+                "children": []
+            },
+            {
+                "id": 1004,
+                "name": "食人花",
+                "children": []
+            },
+            {
+                "id": 1005,
+                "name": "蜘蛛",
+                "children": []
+            },
+            {
+                "id": 1006,
+                "name": "恶狼",
+                "children": []
+            },
+            {
+                "id": 1007,
+                "name": "白银鸟",
+                "children": []
+            },
+            {
+                "id": 1008,
+                "name": "幽灵",
+                "children": []
+            },
+            {
+                "id": 1009,
+                "name": "哥布林1",
+                "children": []
+            },
+            {
+                "id": 1010,
+                "name": "哥布林2",
+                "children": []
+            },
+            {
+                "id": 1011,
+                "name": "哥布林队长",
+                "children": []
+            },
+            {
+                "id": 1012,
+                "name": "树怪",
+                "children": []
+            },
+            {
+                "id": 1013,
+                "name": "野牛",
+                "children": []
+            },
+            {
+                "id": 1014,
+                "name": "狼人",
+                "children": []
+            },
+            {
+                "id": 1015,
+                "name": "恶魔",
+                "children": []
+            },
+            {
+                "id": 1016,
+                "name": "魅魔",
+                "children": []
+            },
+            {
+                "id": 1017,
+                "name": "魔王",
+                "children": []
+            }
+        ],
+        "isOpen": true,
+        "name": "[#GAME_FIGURE_WALKING]"
+    },
+    "dataShowMode": 0
+}

@@ -1,0 +1,112 @@
+{
+    "list": {
+        "1": [
+            null,
+            "伊斯特",
+            "菲妮罗",
+            "雷兹法普",
+            "拉芙娜"
+        ],
+        "2": [
+            null,
+            "伊斯特",
+            "菲妮罗",
+            "雷兹法普",
+            "拉芙娜",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "3": [
+            null,
+            null,
+            null
+        ],
+        "12": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "type": {
+        "1": "头像",
+        "2": "全身",
+        "3": "",
+        "16": "插件"
+    },
+    "typeTreeNode": {
+        "isDirectory": true,
+        "children": [
+            {
+                "id": 1,
+                "name": "伊斯特",
+                "children": []
+            },
+            {
+                "id": 2,
+                "name": "菲妮罗",
+                "children": []
+            },
+            {
+                "id": 3,
+                "name": "雷兹法普",
+                "children": []
+            },
+            {
+                "id": 4,
+                "name": "拉芙娜",
+                "children": []
+            },
+            {
+                "id": 1001,
+                "name": "伊斯特",
+                "children": []
+            },
+            {
+                "id": 1002,
+                "name": "菲妮罗",
+                "children": []
+            },
+            {
+                "id": 1003,
+                "name": "雷兹法普",
+                "children": []
+            },
+            {
+                "id": 1004,
+                "name": "拉芙娜",
+                "children": []
+            }
+        ],
+        "isOpen": true,
+        "name": "[#GAME_SET_PAINTING]"
+    },
+    "dataShowMode": 0
+}

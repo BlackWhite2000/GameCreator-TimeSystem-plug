@@ -1,0 +1,460 @@
+{
+    "compAutoOrderLimitHeight": 0,
+    "id": 15001,
+    "blockList": [
+        {
+            "name": "时间系统 by BlackWhite",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "117848026202_0.38259148675685073",
+                        "varName": "setTypeDataList",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 2,
+                            "compParam": {
+                                "items": "年,月,日,时,分,秒",
+                                "showIndex": false
+                            }
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": " ",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 0,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "117848097312_0.4445859388407085",
+                            "value": true,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 45,
+                    "x": 256,
+                    "width": 100,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "117848097312_0.4445859388407085",
+                        "varName": "setType",
+                        "varType": 2,
+                        "compData": {
+                            "compType": 15,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "输出指定时间单位 (输出至将变为数值)",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 45,
+                    "x": 16,
+                    "width": 240,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "117849665613_0.5800707990292897",
+                        "varName": "setStr",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 8,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "输出至",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": null,
+                            "value": null,
+                            "isExpression": true,
+                            "jsCode": "!attrs.setType || attrs.isDataIndex;\n",
+                            "tsCode": "!attrs.setType || attrs.isDataIndex",
+                            "codeName": "输出字符串"
+                        }
+                    ],
+                    "y": 10,
+                    "x": 566,
+                    "width": 340,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "117848161801_0.013776549907919877",
+                        "varName": "setNum",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 6,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "输出至",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": null,
+                            "value": null,
+                            "isExpression": true,
+                            "jsCode": "attrs.setType && !attrs.isDataIndex;\n",
+                            "tsCode": "attrs.setType && !attrs.isDataIndex",
+                            "codeName": "输出数值"
+                        }
+                    ],
+                    "y": 10,
+                    "x": 566,
+                    "width": 340,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "117857386776_0.4543086410489696",
+                        "varName": "isDataIndex",
+                        "varType": 2,
+                        "compData": {
+                            "compType": 15,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "一位数情况下, 保留0的存在. 即输出 01 而不是 1 (输出至将变为字符串-优先级最高)",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "117848097312_0.4445859388407085",
+                            "value": true,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 45,
+                    "x": 365,
+                    "width": 559,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "118114114742_0.1867554805373981",
+                        "varName": "timeDataTypeList",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 2,
+                            "compParam": {
+                                "items": "本地,服务器,自定义",
+                                "showIndex": false
+                            }
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "时间戳来源",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 0,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 10,
+                    "x": 15,
+                    "width": 180,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "118119513445_0.38490652011237514",
+                        "varName": "timeStampType",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 2,
+                            "compParam": {
+                                "items": "常量,变量",
+                                "showIndex": false
+                            }
+                        },
+                        "defaultValue": "1",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": " ",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 0,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "118114114742_0.1867554805373981",
+                            "value": 2,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 10,
+                    "x": 460,
+                    "width": 100,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "117848339837_0.34560107504187565",
+                        "varName": "timeStamp",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 0,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": " ",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 0,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "118114114742_0.1867554805373981",
+                            "value": 2,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        },
+                        {
+                            "attrID": "118119513445_0.38490652011237514",
+                            "value": 0,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 10,
+                    "x": 198,
+                    "width": 260,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "118119533553_0.08403690879396919",
+                        "varName": "timeStampVar",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 6,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": " ",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 0,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "118114114742_0.1867554805373981",
+                            "value": 2,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        },
+                        {
+                            "attrID": "118119513445_0.38490652011237514",
+                            "value": 1,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 10,
+                    "x": 198,
+                    "width": 260,
+                    "height": 32
+                }
+            ],
+            "blockCondition": [],
+            "blockHeight": 85,
+            "autoOrder": true,
+            "hideBlockTitle": false,
+            "cmdColor": "#59acff"
+        }
+    ],
+    "isCustomPhraseDesc": true,
+    "fastModifyAttribute": true,
+    "customPhraseDescTS": "// 根据属性名称值编写自定义短语描述，如：\"我的短语是\"+attrs.xxx\n// 使用下拉框组件的变量attrs.xxx有对应的attrs.xxxItems的属性以便获得标签名集合\n// 获取自定义模块的数据名称的函数：getModuleDataName(moduleID:number,dataID:number):string;\n// 获取各种列表内数据名称的函数：getTypeDataListName(typeID: number, dataID: number):string;\n// 获取自定义游戏数值描述的函数：getCustomGameNumber(customGameNumber: any[]):string;\n// 获取自定义游戏字符串描述的函数：getCustomGameString(customGameString: any[]):string;\n// 获取自定义游戏开关描述的函数：：getCustomGameSwitch(customGameSwitch: any[]):string;\n// -- typeID ：0-全局变量 1-全局开关 2-全局字符串 3-玩家变量 4-玩家开关 5-玩家字符串\n//           ：6-场景列表 7-场景对象原型列表 8-图块列表 9-行走图列表 10-行走图动作列表 11-立绘列表 12-立绘表情列表\n//           ：13-事件库列表 14-对话框列表 15-动画列表 16-动画信号列表 17-界面列表 18-数据结构列表 19-自定义模块列表\n//           ：20-自定义指令列表 21-自定义行为列表 22-自动元件列表 23-行走图部件列表 24-立绘部件列表 25-材质列表 26-场景对象模块\nlet str = '';\nlet typeData = ['年', '月', '日', '时', '分', '秒'];\nif (attrs.timeDataTypeList == 0) {\n    str += \"获取本地日期 => \"\n}\nif (attrs.timeDataTypeList == 1) {\n    str += \"获取服务器日期 => \"\n}\nif (attrs.timeDataTypeList == 2) {\n    if (attrs.timeStampType == 0) {\n        str += `${attrs.timeStamp} => `\n    } else {\n        str += `${attrs.timeStampVar}-${getTypeDataListName(3, attrs.timeStampVar)} => `\n    }\n}\nif (!attrs.setType || attrs.isDataIndex) {\n    str += `字符串[${attrs.setStr}-${getTypeDataListName(5, attrs.setStr)}]  `\n} else {\n    str += `数值[${attrs.setNum}-${getTypeDataListName(3, attrs.setNum)}]  `\n}\n\n\nif (attrs.setType) {\n    str += `只输出单位【${typeData[attrs.setTypeDataList]}】 `\n}\nif (attrs.isDataIndex) {\n    str += `一位数保留0 `\n}\nstr += ``",
+    "customPhraseDescJS": "var str = '';\nvar typeData = ['年', '月', '日', '时', '分', '秒'];\nif (attrs.timeDataTypeList == 0) {\n    str += \"获取本地日期 => \";\n}\nif (attrs.timeDataTypeList == 1) {\n    str += \"获取服务器日期 => \";\n}\nif (attrs.timeDataTypeList == 2) {\n    if (attrs.timeStampType == 0) {\n        str += attrs.timeStamp + \" => \";\n    }\n    else {\n        str += attrs.timeStampVar + \"-\" + getTypeDataListName(3, attrs.timeStampVar) + \" => \";\n    }\n}\nif (!attrs.setType || attrs.isDataIndex) {\n    str += \"\\u5B57\\u7B26\\u4E32[\" + attrs.setStr + \"-\" + getTypeDataListName(5, attrs.setStr) + \"]  \";\n}\nelse {\n    str += \"\\u6570\\u503C[\" + attrs.setNum + \"-\" + getTypeDataListName(3, attrs.setNum) + \"]  \";\n}\nif (attrs.setType) {\n    str += \"\\u53EA\\u8F93\\u51FA\\u5355\\u4F4D\\u3010\" + typeData[attrs.setTypeDataList] + \"\\u3011 \";\n}\nif (attrs.isDataIndex) {\n    str += \"\\u4E00\\u4F4D\\u6570\\u4FDD\\u75590 \";\n}\nstr += \"\";\n",
+    "name": "时间戳转为日期"
+}

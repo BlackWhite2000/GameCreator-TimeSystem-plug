@@ -1,0 +1,127 @@
+[
+    {
+        "allPlugUseData": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            null,
+            null,
+            [],
+            [
+                {
+                    "filePath": "Game/GCplug/641/CryptoJS.min.js",
+                    "isServer": false
+                },
+                {
+                    "filePath": "Game/GCplug/641/OpenAPI.ts",
+                    "isServer": false
+                }
+            ],
+            null,
+            null,
+            [],
+            [],
+            []
+        ],
+        "id": 641,
+        "name": "【OpenAPI】更多API插件 v2.1",
+        "lastUpdateTime": 1675860710,
+        "author": "BlackWhite",
+        "gcver": null
+    },
+    {
+        "allPlugUseData": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            [],
+            [],
+            [],
+            [],
+            [
+                15001,
+                15002,
+                15003
+            ],
+            [],
+            null,
+            null,
+            [],
+            [
+                {
+                    "filePath": "Game/GCplug/654/TimeSystemModule.ts",
+                    "isServer": false
+                }
+            ],
+            null,
+            null,
+            [],
+            [],
+            []
+        ],
+        "id": 654,
+        "name": "时间系统",
+        "lastUpdateTime": 1700916614,
+        "author": "BlackWhite",
+        "gcver": null
+    },
+    {
+        "allPlugUseData": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            [],
+            [],
+            [],
+            [],
+            [
+                15004
+            ],
+            [],
+            [
+                [
+                    "timeApi_yyvhc"
+                ]
+            ],
+            null,
+            [],
+            [
+                {
+                    "filePath": "Game/GCplug/542/ServerTimeStamp.ts",
+                    "isServer": false
+                }
+            ],
+            null,
+            null,
+            [],
+            [],
+            []
+        ],
+        "id": 542,
+        "name": "获取服务器时间",
+        "lastUpdateTime": 1678607439,
+        "author": "BlackWhite",
+        "gcver": null
+    }
+]

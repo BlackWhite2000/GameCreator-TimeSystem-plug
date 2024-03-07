@@ -1,0 +1,150 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "105591939886_0.3312690906508935",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "半透明背景",
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": false,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/PopupWindow_mask.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            },
+            {
+                "id": "42761703065_0.6530324860381422",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "底部装饰",
+                "x": 660,
+                "y": 524,
+                "width": 600,
+                "height": 72,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/tipsBg.png",
+                "grid9": "10,65,10,65,0",
+                "pivotType": 0
+            },
+            {
+                "id": "42761673533_0.38203547886321854",
+                "condition": [],
+                "type": "UIString",
+                "name": "GameOver文本",
+                "x": 800,
+                "y": 529,
+                "width": 319,
+                "height": 60,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "text": "Game Over",
+                "fontSize": 60,
+                "color": "#ffffff",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 0,
+                "valign": 0,
+                "leading": 0,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowColor": "#000000",
+                "shadowDx": 1,
+                "shadowDy": 1,
+                "stroke": 0,
+                "strokeColor": "#000000"
+            },
+            {
+                "id": "132030048778_0.50228780321774",
+                "condition": [],
+                "type": "UIString",
+                "name": "界面位置提示",
+                "x": 510,
+                "y": 841,
+                "width": 882,
+                "height": 41,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "text": "可前往 数据库(F10)->界面->0010-游戏结束界面 自定义该界面",
+                "fontSize": 20,
+                "color": "#ffffff",
+                "bold": false,
+                "italic": false,
+                "smooth": null,
+                "align": 1,
+                "valign": 1,
+                "leading": 0,
+                "letterSpacing": 1,
+                "font": "Source_Han_Sans",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowEnabled": null,
+                "shadowColor": "#000000",
+                "shadowDx": 1,
+                "shadowDy": 1,
+                "stroke": 0,
+                "strokeColor": "#000000",
+                "onChangeFragEvent": null
+            }
+        ]
+    },
+    "id": 10,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

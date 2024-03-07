@@ -1,0 +1,173 @@
+{
+    "variable": {
+        "variables": [],
+        "switchs": [],
+        "strings": []
+    },
+    "saveIDs": [
+        {
+            "id": 1,
+            "indexInfo": {
+                "screenshotImg": "data:image/png;base64,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",
+                "gameTime": 5243,
+                "mapName": "新的场景1"
+            },
+            "now": 1709799215706
+        }
+    ],
+    "globalData": {
+        "___useNewGlobalData": true,
+        "Setting": {
+            "KEY_BOARD": {
+                "UP": {
+                    "index": 1,
+                    "keys": [
+                        87,
+                        38
+                    ]
+                },
+                "DOWN": {
+                    "index": 2,
+                    "keys": [
+                        83,
+                        40
+                    ]
+                },
+                "LEFT": {
+                    "index": 3,
+                    "keys": [
+                        65,
+                        37
+                    ]
+                },
+                "RIGHT": {
+                    "index": 4,
+                    "keys": [
+                        68,
+                        39
+                    ]
+                },
+                "A": {
+                    "index": 5,
+                    "keys": [
+                        75,
+                        90,
+                        13,
+                        32
+                    ]
+                },
+                "B": {
+                    "index": 17,
+                    "keys": [
+                        76,
+                        88,
+                        27,
+                        96
+                    ]
+                },
+                "X": {
+                    "index": 18,
+                    "keys": [
+                        72,
+                        67
+                    ]
+                },
+                "Y": {
+                    "index": 19,
+                    "keys": [
+                        74,
+                        86
+                    ]
+                },
+                "START": {
+                    "index": 20,
+                    "keys": [
+                        13,
+                        32
+                    ]
+                },
+                "BACK": {
+                    "index": 21,
+                    "keys": [
+                        27,
+                        96
+                    ]
+                },
+                "L1": {
+                    "index": 22,
+                    "keys": [
+                        81,
+                        79
+                    ]
+                },
+                "L2": {
+                    "index": 23,
+                    "keys": [
+                        82,
+                        85
+                    ]
+                },
+                "R1": {
+                    "index": 24,
+                    "keys": [
+                        69,
+                        80
+                    ]
+                },
+                "R2": {
+                    "index": 25,
+                    "keys": [
+                        84,
+                        73
+                    ]
+                }
+            },
+            "GAMEPAD": {
+                "X": {
+                    "index": 1,
+                    "key": 2
+                },
+                "Y": {
+                    "index": 2,
+                    "key": 3
+                },
+                "A": {
+                    "index": 3,
+                    "key": 0
+                },
+                "B": {
+                    "index": 4,
+                    "key": 1
+                },
+                "START": {
+                    "index": 5,
+                    "key": 9
+                },
+                "BACK": {
+                    "index": 6,
+                    "key": 8
+                },
+                "L1": {
+                    "index": 7,
+                    "key": 4
+                },
+                "L2": {
+                    "index": 8,
+                    "key": 6
+                },
+                "R1": {
+                    "index": 9,
+                    "key": 5
+                },
+                "R2": {
+                    "index": 10,
+                    "key": 7
+                }
+            },
+            "bgmVolume": 1,
+            "bgsVolume": 1,
+            "seVolume": 1,
+            "tsVolume": 1
+        }
+    }
+}
