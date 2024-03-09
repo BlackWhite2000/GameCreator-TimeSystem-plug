@@ -187,7 +187,7 @@
                         "id": null
                     }
                 ],
-                "isOpen": false,
+                "isOpen": true,
                 "name": "系统事件",
                 "id": null
             },
